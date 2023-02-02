@@ -2,13 +2,14 @@ package org.lessons.java.christmas;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
 
-		ArrayList<String> listaNatale = new ArrayList<>();
+		List<String> listaNatale = new ArrayList<>();
 		Scanner s = new Scanner(System.in);
 		boolean continua = true;
 
